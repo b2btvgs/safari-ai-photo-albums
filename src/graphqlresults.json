@@ -1,0 +1,16 @@
+{
+  "data": {
+    "listAlbums": {
+      "items": [
+        {
+          "id": "ae4d5c5a-4a67-40f6-9e4b-dae273376864",
+          "name": "First Album"
+        },
+        {
+          "id": "135c3294-8662-465d-b445-3bd9630b62b7",
+          "name": "pmm Safari Album"
+        }
+      ]
+    }
+  }
+}
