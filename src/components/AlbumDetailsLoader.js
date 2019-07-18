@@ -4,19 +4,24 @@ import AlbumDetails from './AlbumDetails';
 
 const GetAlbum = `query GetAlbum($id: ID!, $nextTokenForPhotos: String) {
     getAlbum(id: $id) {
-    id
-    name
-    photos(sortDirection: DESC, nextToken: $nextTokenForPhotos) {
-      nextToken
-      items {
-        thumbnail {
-          width
-          height
-          key
+        id
+        name
+        photos(sortDirection: DESC, nextToken: $nextTokenForPhotos) {
+            nextToken
+            items {
+                thumbnail {
+                    width
+                    height
+                    key
+                }
+                fullsize {
+                    width
+                    height
+                    key
+                }
+            }
         }
-      }
     }
-  }
 }
 `;
 
